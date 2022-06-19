@@ -1,4 +1,4 @@
-a {
+a.link {
   text-decoration: none;
 }
 
@@ -17,9 +17,14 @@ a:hover {
 body {
   background-color: black;
   color: white;
+  text-align: center;
 }
 
 div {
   height: 500px;
   width: auto;
+}
+
+li {
+  text-align: left;
 }
