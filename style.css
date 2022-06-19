@@ -2,3 +2,8 @@ body {
   background-color: black;
   color: white;
 }
+
+div {
+  height: 500px;
+  width: auto;
+}
