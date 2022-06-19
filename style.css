@@ -20,9 +20,20 @@ body {
   text-align: center;
 }
 
+button {
+  background-color: rgba(100, 100, 100, 0.50);
+  border-color: rgb(165, 165, 165);
+  border-radius: 12px;
+  font-size: 14px;
+}
+
 div {
   height: 500px;
   width: auto;
+}
+
+ul .list{
+  list-style: none;
 }
 
 li {
