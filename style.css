@@ -1,19 +1,3 @@
-a.link {
-  text-decoration: none;
-}
-
-a:link {
-  color: white;
-}
-
-a:visited {
-  color: antiquewhite;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
 body {
   background-image: linear-gradient(grey, black);
   background-repeat: no-repeat;
@@ -26,8 +10,14 @@ body {
 button {
   background-color: rgba(100, 100, 100, 0.2);
   border-color: rgb(165, 165, 165);
-  border-radius: 12px;
-  font-size: 14px;
+  border-radius: .5em .5em 0 0;
+  color: antiquewhite;
+  font-size: 90%;
+  padding: 0px 5px;
+}
+
+button:hover {
+  text-decoration: underline;
 }
 
 div {
@@ -41,4 +31,8 @@ ul.links{
 
 li {
   text-align: left;
+}
+
+.link {
+  display: inline-block;
 }
