@@ -1,38 +1,83 @@
 body {
-  background-image: linear-gradient(grey, black);
-  background-repeat: no-repeat;
-  background-color: black;
+  background: linear-gradient(#ed5f55, #5583ed);
   color: white;
+  margin: 2rem;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
-button {
-  background-color: rgba(100, 100, 100, 0.2);
-  border-color: rgb(165, 165, 165);
-  border-radius: .5em .5em 0 0;
-  color: antiquewhite;
-  font-size: 90%;
-  padding: 0px 5px;
+img,
+.img {
+  height: 40vh;
+  width: auto
 }
 
-button:hover {
-  text-decoration: underline;
+img {
+  background: black;
+  border: .25em solid black;
+  padding: 0;
 }
 
-div {
-  height: 500px;
-  width: auto;
+a {
+  color: white;
 }
 
-ul.links{
-  list-style: none;
-}
+  p,
+  ol,
+  ul,
+  h3 {
+    background: rgba(255,255,255,.25);
+    border: .2em solid black;
+  }
 
-li {
-  text-align: left;
-}
+  p,
+  ol,
+  ul {
+    text-align: left;
+  }
 
-.link {
-  display: inline-block;
-}
+  p,
+  ul {
+    padding: 1rem;
+  }
+
+  ol {
+    padding: 1rem auto;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  h3 {
+    border-bottom: transparent;
+    margin-bottom: 0;
+  }
+
+  .ml {
+    margin-top: 0;
+  }
+
+  .text {
+    height: 50vh;
+    width: auto;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1 1 auto;
+    list-style: none;
+    align-items: flex-end;
+    gap: .5ch;
+  }
+
+  button {
+    background: #ff8;
+    border: 1px solid black;
+    border-radius: 0 .5em;
+    height: 2.25rem;
+    width: auto;
+  }
